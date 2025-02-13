@@ -1,0 +1,105 @@
+    #con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    body {
+        background-image: url(img.jpeg);
+        background-size: cover;
+    }
+    
+    #boxx {
+        background-color: white;
+        height: 400px;
+        width: 350px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    
+    p {
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+    
+    h1 {
+        font-size: xx-large;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    
+    .input {
+        text-align: center;
+    }
+    
+    .size {
+        height: 30px;
+        width: 280px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    
+    #check {
+        text-align: center;
+        margin-left: 26px;
+    }
+    
+    b {
+        font-size: smaller;
+    }
+    
+    #sp {
+        margin-left: 37px;
+    }
+    
+    .butt {
+        text-align: center;
+    }
+    
+    #ad {
+        width: 280px;
+        height: 30px;
+        background-color: blue;
+        border-style: none;
+        border-radius: 5px;
+    }
+    
+    #ads {
+        width: 280px;
+        height: 30px;
+        border-style: none;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    
+    i {
+        padding-right: 5px;
+    }
+    
+    #acc {
+        display: inline;
+        text-align: center;
+        margin-left: 70px;
+    }
+    
+    .a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    @media (max-width: 500px) {
+        #sp {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .size {
+            width: 140px;
+        }
+    }
